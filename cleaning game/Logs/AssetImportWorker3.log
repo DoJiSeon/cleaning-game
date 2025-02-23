@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 32387 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Github/cleaning-game/cleaning game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57284
+Successfully changed project path to: D:/Github/cleaning-game/cleaning game
+D:/Github/cleaning-game/cleaning game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1400] Host "[IP] 192.168.45.56 [Port] 0 [Flags] 2 [Guid] 130967817 [EditorId] 130967817 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1400] Host "[IP] 192.168.45.56 [Port] 0 [Flags] 2 [Guid] 130967817 [EditorId] 130967817 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 7.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/cleaning-game/cleaning game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006518 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 347 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 913ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (446ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F6D6C34A20 doesn't match image D:\Github\cleaning-game\cleaning game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F6F8FAF020 doesn't match image D:\Github\cleaning-game\cleaning game\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.490 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (59.6 KB). Loaded Objects now: 3836.
+Memory consumption went from 144.9 MB to 144.8 MB.
+Total: 2.543900 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.150100 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5286.620516 seconds.
+  path: Assets/Police Department/Material/BoardA.mat
+  artifactKey: Guid(ed8e3ec0fa5bde942aac7f513d61b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/BoardA.mat using Guid(ed8e3ec0fa5bde942aac7f513d61b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc3bc023caa8597272a37625ebd5269') in 0.290968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Police Department/Material/BoxC.mat
+  artifactKey: Guid(cd8c158a72badbe43aa0e712434cc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/BoxC.mat using Guid(cd8c158a72badbe43aa0e712434cc837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8164f109975bd8606cd7f0368b8d7e6') in 0.047634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Police Department/Material/CeilingLampB_Off.mat
+  artifactKey: Guid(9da265ee7d16c2a49819437283cb2053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CeilingLampB_Off.mat using Guid(9da265ee7d16c2a49819437283cb2053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe003aff3511b3ec49f2da6ac2ad397f') in 0.036876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Police Department/Material/CeilingLampC_On.mat
+  artifactKey: Guid(de31360202cc0574eb459bc25bb47e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CeilingLampC_On.mat using Guid(de31360202cc0574eb459bc25bb47e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03f7120143d6e351a63a68e6863141e') in 0.108665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.109177 seconds.
+  path: Assets/Police Department/Material/Clock.mat
+  artifactKey: Guid(e4cdde98e10ad7c4485b3e1c7692d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/Clock.mat using Guid(e4cdde98e10ad7c4485b3e1c7692d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff336d3c1b4035f9608726d2970c3cb') in 0.031110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Police Department/Material/CupA_1.mat
+  artifactKey: Guid(a6ec9c20bd803c644a54544b14d2f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CupA_1.mat using Guid(a6ec9c20bd803c644a54544b14d2f54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20373f6dd71ba446f15410a50f4648a4') in 0.026695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Police Department/Material/CupB_2.mat
+  artifactKey: Guid(659037133e5f5e54e8569a1fe88931f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CupB_2.mat using Guid(659037133e5f5e54e8569a1fe88931f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c442c3558cc75ec234297df87acd59') in 0.024867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Police Department/Material/DoorA.mat
+  artifactKey: Guid(157e12eabd82b4646b90bcc63c4b99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/DoorA.mat using Guid(157e12eabd82b4646b90bcc63c4b99bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd004a0de847f3c58b69c9c2f37854007') in 0.031621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.010078 seconds.
+  path: Assets/Police Department/Prefabs/BoardA.prefab
+  artifactKey: Guid(752569b35b9dbb043a42300cd204ffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/BoardA.prefab using Guid(752569b35b9dbb043a42300cd204ffad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44540c76f1e22f997f0387b92532529') in 0.059986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Prefabs/Camera.prefab
+  artifactKey: Guid(170eee5cd17a7234c8bdc79ac203c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Camera.prefab using Guid(170eee5cd17a7234c8bdc79ac203c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1444ccd0cf11b9220473dafdce78dd11') in 0.054088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Police Department/Prefabs/CeilingLampC_On.prefab
+  artifactKey: Guid(2d154f3b861c8734da914396931389a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/CeilingLampC_On.prefab using Guid(2d154f3b861c8734da914396931389a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4294755cfd39a630e3974e9e91faed') in 0.051514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Prefabs/CeilingLampD_Off.prefab
+  artifactKey: Guid(d6e8fcd90b7af5f408f260a66b01aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/CeilingLampD_Off.prefab using Guid(d6e8fcd90b7af5f408f260a66b01aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54d4e52cc9043438d678e344a2f320') in 0.047969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.297888 seconds.
+  path: Assets/Police Department/Prefabs/Clips.prefab
+  artifactKey: Guid(56edfb729564f5f48a4e84f4fdf73d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Clips.prefab using Guid(56edfb729564f5f48a4e84f4fdf73d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2a2c12049b673d34e9081437436fbd') in 0.177630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Police Department/Prefabs/CupB_1.prefab
+  artifactKey: Guid(3d4f3035be66e204586491c33b4a41a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/CupB_1.prefab using Guid(3d4f3035be66e204586491c33b4a41a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0bd1a36f716b2d600656b15b42f734') in 0.032532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Police Department/Prefabs/Folder_4.prefab
+  artifactKey: Guid(2a1e9f17b409b3447b778295121275e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Folder_4.prefab using Guid(2a1e9f17b409b3447b778295121275e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dbd41f6cf0eaf2471fdb7240b61c1e') in 0.026796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Police Department/Prefabs/FolderDocD.prefab
+  artifactKey: Guid(e04b90b8a4f8f754c90f1b74b3b74626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/FolderDocD.prefab using Guid(e04b90b8a4f8f754c90f1b74b3b74626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ec8d1a8957c0156c844a797dc67442') in 0.028284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Police Department/Prefabs/Folder_1.prefab
+  artifactKey: Guid(ba0a38c3eb3b1b24286bb99cebe79fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Folder_1.prefab using Guid(ba0a38c3eb3b1b24286bb99cebe79fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2143245b419cc74609d1bb0bc96a1fe') in 0.027464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

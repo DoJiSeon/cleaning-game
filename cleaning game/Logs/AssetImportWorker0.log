@@ -1,0 +1,782 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 32387 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Github/cleaning-game/cleaning game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57284
+Successfully changed project path to: D:/Github/cleaning-game/cleaning game
+D:/Github/cleaning-game/cleaning game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24420] Host "[IP] 192.168.45.56 [Port] 0 [Flags] 2 [Guid] 2464953793 [EditorId] 2464953793 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24420] Host "[IP] 192.168.45.56 [Port] 0 [Flags] 2 [Guid] 2464953793 [EditorId] 2464953793 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github/cleaning-game/cleaning game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007035 seconds.
+- Loaded All Assemblies, in  0.282 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 292 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (375ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000001DE080F6A50 doesn't match image D:\Github\cleaning-game\cleaning game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DE080F6A50 doesn't match image D:\Github\cleaning-game\cleaning game\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 1204ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (59.9 KB). Loaded Objects now: 3836.
+Memory consumption went from 144.9 MB to 144.8 MB.
+Total: 2.614800 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.222600 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5244.142168 seconds.
+  path: Assets/Agarkova_CG/Worker_man
+  artifactKey: Guid(76003ede0e4c76f48a7bf8fdb9055e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Worker_man using Guid(76003ede0e4c76f48a7bf8fdb9055e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b136f47676b5f264f128dcde05eeb') in 0.002282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.837343 seconds.
+  path: Assets/Motion Cast#08 - Vol.1
+  artifactKey: Guid(540a620c12b7b5447857d957b92afb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1 using Guid(540a620c12b7b5447857d957b92afb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e10e1d1ffb61fbddf35408e8c5253b') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.282275 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/Link video tutorial.pdf
+  artifactKey: Guid(cd2b7de157ab1b842b188f8b4697893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/Link video tutorial.pdf using Guid(cd2b7de157ab1b842b188f8b4697893f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6972d9fbc37e53e50e9add14e364c269') in 0.006675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.483159 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/Worker Docu-V1.0.pdf
+  artifactKey: Guid(d737af3c030624e4494d44fff32b8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/Worker Docu-V1.0.pdf using Guid(d737af3c030624e4494d44fff32b8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e731533140f5c21820f08f724abfee') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.166807 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/Prefab
+  artifactKey: Guid(c7b0002bae3ab334685fc84250118d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/Prefab using Guid(c7b0002bae3ab334685fc84250118d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3f71c286fa96717b7f5dc5a067589e') in 0.000355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.855607 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/Materials and textures
+  artifactKey: Guid(50a6dac6361449a4283a9e9f0e910315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/Materials and textures using Guid(50a6dac6361449a4283a9e9f0e910315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29920754282609715061fb13e8d69ca7') in 0.000352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.538060 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/Worker animations
+  artifactKey: Guid(6c61639c201dbc044b841acfbebabf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/Worker animations using Guid(6c61639c201dbc044b841acfbebabf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f00d3fa03966b6d140b1ee7fd14a09') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.283803 seconds.
+  path: Assets/Motion Cast#08 - Vol.1/How to use Motion Cast Animations-1.0U.pdf
+  artifactKey: Guid(bcf76b61442bcf2469a94e786eeab208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Motion Cast#08 - Vol.1/How to use Motion Cast Animations-1.0U.pdf using Guid(bcf76b61442bcf2469a94e786eeab208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f62681f3c554d0f957713f5a22ca38') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.896649 seconds.
+  path: Assets/Oddboy
+  artifactKey: Guid(8d25c941690502d49b07f0cc9da541c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oddboy using Guid(8d25c941690502d49b07f0cc9da541c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb911accdd18aefddf56c41d1aa3d80e') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.139861 seconds.
+  path: Assets/Police Department
+  artifactKey: Guid(66f54111d36bd9047899181c770a37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department using Guid(66f54111d36bd9047899181c770a37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1501a9459343e1a9347cc56036e6184d') in 0.000351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.478239 seconds.
+  path: Assets/Police Department/Material
+  artifactKey: Guid(f50fecec787718d4082626f44b44e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material using Guid(f50fecec787718d4082626f44b44e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f84dab00bb1f6fb034b319ea06af8a') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.699057 seconds.
+  path: Assets/Police Department/Models
+  artifactKey: Guid(c4717550faad0644ab9eafcf554401ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models using Guid(c4717550faad0644ab9eafcf554401ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b51f1127e16cea6545150745936a9cf') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.469741 seconds.
+  path: Assets/Police Department/Packages
+  artifactKey: Guid(46f122c5a696d01489eba19701b4abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Packages using Guid(46f122c5a696d01489eba19701b4abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0628ccdecd2c35b088ff63003b81fecc') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.792620 seconds.
+  path: Assets/Police Department/Prefabs
+  artifactKey: Guid(edf4a7f7a681bc648a2ae0a74ddc290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs using Guid(edf4a7f7a681bc648a2ae0a74ddc290f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b8b5fccf8ae34e4c26e7815d7cd5b') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.338754 seconds.
+  path: Assets/Police Department/Scenes
+  artifactKey: Guid(4e1c68e50ed304b49af9c415e8c72a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Scenes using Guid(4e1c68e50ed304b49af9c415e8c72a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a7616488c58edb847d417a998d33fe') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.523661 seconds.
+  path: Assets/Police Department/Textures
+  artifactKey: Guid(5f3957a05b0281c4f848ec83cef03488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Textures using Guid(5f3957a05b0281c4f848ec83cef03488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46420675cf04aa2e7e62a3df4174405b') in 0.000354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.886896 seconds.
+  path: Assets/Police Department/Models/BlindsA_Closed.fbx
+  artifactKey: Guid(16d0387517700fc43b833177ba5cdfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/BlindsA_Closed.fbx using Guid(16d0387517700fc43b833177ba5cdfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da5bba7759ee5ff0b46342b79b4c2e4') in 0.190363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Police Department/Models/ChairA.fbx
+  artifactKey: Guid(9a46263bd1053c043a4960d39e1a1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/ChairA.fbx using Guid(9a46263bd1053c043a4960d39e1a1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a224fd2dd05d4ab44ebe40231f2efeb2') in 0.035335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Police Department/Models/BlindsB_Closed.fbx
+  artifactKey: Guid(6c1d9fd025df2774e935169137e24123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/BlindsB_Closed.fbx using Guid(6c1d9fd025df2774e935169137e24123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe03ec875294f3e674c5efb134ba62dd') in 0.048550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/BlindsB_Open.fbx
+  artifactKey: Guid(366edb1a9bbc2f34781b6d05bebf6285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/BlindsB_Open.fbx using Guid(366edb1a9bbc2f34781b6d05bebf6285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725eafd999b7cab0065c2a9a0c48c6f8') in 0.031551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 190
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Police Department/Models/Clips.fbx
+  artifactKey: Guid(bb0dc882f713960408fca107939cccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Clips.fbx using Guid(bb0dc882f713960408fca107939cccd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4c655109f141a8b0de88cd2c30423d') in 0.025911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/ChairB.fbx
+  artifactKey: Guid(a9484189904ba404c8105cff3e78bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/ChairB.fbx using Guid(a9484189904ba404c8105cff3e78bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079015369d62578ac587ba8a71a136bc') in 0.031321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Police Department/Models/BoxC.fbx
+  artifactKey: Guid(5e914462bc23dfc45bfbe8395223024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/BoxC.fbx using Guid(5e914462bc23dfc45bfbe8395223024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15181d575ada065145eaf2163526509') in 0.030705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Police Department/Models/CeilingLampA.fbx
+  artifactKey: Guid(97b32c3132b980740a8e7c1aef0eb3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/CeilingLampA.fbx using Guid(97b32c3132b980740a8e7c1aef0eb3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64574f9e49fa49fea08c3be2e7cf520') in 0.027127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Police Department/Models/CupA.fbx
+  artifactKey: Guid(c78b4fc611688994e83aea9048863f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/CupA.fbx using Guid(c78b4fc611688994e83aea9048863f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a78d592110a4ccddc570dc86ee72826') in 0.025459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Police Department/Models/Case.fbx
+  artifactKey: Guid(79704f12d3fb0f4498f11509d1294be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Case.fbx using Guid(79704f12d3fb0f4498f11509d1294be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03463e7237ba5a534fb6778ad319f0aa') in 0.025579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.392530 seconds.
+  path: Assets/Police Department/Models/CupB.fbx
+  artifactKey: Guid(91f6e210b5f582b4eaeef31d0887e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/CupB.fbx using Guid(91f6e210b5f582b4eaeef31d0887e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0102b7788b8b5133013fceadbc39a087') in 0.030064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Police Department/Models/ElectricalPanelB.fbx
+  artifactKey: Guid(2c19a19612a96ad4a9d5d409aa4b2bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/ElectricalPanelB.fbx using Guid(2c19a19612a96ad4a9d5d409aa4b2bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1879a5c528e139aae04d78483e165d') in 0.031380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Police Department/Models/FireBox.fbx
+  artifactKey: Guid(f982f4374f00f2840b3e9b64f48b5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/FireBox.fbx using Guid(f982f4374f00f2840b3e9b64f48b5a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ad348b03fb4bb6d3b01d17cacf8a25') in 0.046981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Police Department/Models/FolderDocD.fbx
+  artifactKey: Guid(8d97b47eccce7754a8292c2ee48fad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/FolderDocD.fbx using Guid(8d97b47eccce7754a8292c2ee48fad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce5afa049391f23c8c3f669936be3c7') in 0.026259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Police Department/Models/LampOn.fbx
+  artifactKey: Guid(c0f7389f696909e40a7380ac68eaa788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/LampOn.fbx using Guid(c0f7389f696909e40a7380ac68eaa788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883cbb5510b1d628066d113fd0de8094') in 0.027456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/LampOff.fbx
+  artifactKey: Guid(1fbe527b60bda644f8311655f073055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/LampOff.fbx using Guid(1fbe527b60bda644f8311655f073055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17bb86b349eadd789f57b3764d974c3') in 0.028409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Models/Extinguisher.fbx
+  artifactKey: Guid(88cf1b839b791d54197d04c49d7305c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Extinguisher.fbx using Guid(88cf1b839b791d54197d04c49d7305c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7dd6ddc8b49d9c75d9179370fc5fc') in 0.032948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/FolderDocA.fbx
+  artifactKey: Guid(1518b72f629a9754ab4e203747a3c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/FolderDocA.fbx using Guid(1518b72f629a9754ab4e203747a3c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aed0bb64c721a2776ccedb4085d880') in 0.027227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Police Department/Models/Flag.fbx
+  artifactKey: Guid(77fe3a372291973479f5276705eb89b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Flag.fbx using Guid(77fe3a372291973479f5276705eb89b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129de7d29407a518087389afba8d5c06') in 0.030321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Police Department/Models/FileCabinet.fbx
+  artifactKey: Guid(f2d3f8a24384ba643b6a3e85cf18e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/FileCabinet.fbx using Guid(f2d3f8a24384ba643b6a3e85cf18e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e312312cf4575c4ea06b9827920a2b') in 0.055424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Police Department/Models/Map.fbx
+  artifactKey: Guid(ac67c06c24c8e41419831b98dd1c738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Map.fbx using Guid(ac67c06c24c8e41419831b98dd1c738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a380b1116273a16221b25f6449b02a') in 0.028587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Police Department/Models/GlassOfCoffee.fbx
+  artifactKey: Guid(59297fabf994fb4448110f57d4c03fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/GlassOfCoffee.fbx using Guid(59297fabf994fb4448110f57d4c03fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e683a218d29d96a7be89b6560bbc8842') in 0.026590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Police Department/Models/DoorA.fbx
+  artifactKey: Guid(3f3e636db6a6a974dae5f1750fc22900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/DoorA.fbx using Guid(3f3e636db6a6a974dae5f1750fc22900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeddc9c48ae7f143e3b319ef645760ab') in 0.032364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.260473 seconds.
+  path: Assets/Police Department/Models/NoteBook.fbx
+  artifactKey: Guid(4e8a8fa1613290d4dbdb7dada022f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/NoteBook.fbx using Guid(4e8a8fa1613290d4dbdb7dada022f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99002613b2521fb8afcd85950ec8d058') in 0.029582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.009180 seconds.
+  path: Assets/Police Department/Models/PosterB.fbx
+  artifactKey: Guid(0f647f360442628438748f4838cc8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/PosterB.fbx using Guid(0f647f360442628438748f4838cc8c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33426259b00c0c1959e7fa859064da66') in 0.022329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Police Department/Models/Sticker.fbx
+  artifactKey: Guid(a5e742dd14ea2d040b64d6570c742612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Sticker.fbx using Guid(a5e742dd14ea2d040b64d6570c742612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9c62911cf6a4a09ebe1a4a8e8bb15e') in 0.028030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Police Department/Models/VideoCamera.fbx
+  artifactKey: Guid(6d2fd392d53cd4e4d80439af0a1e1fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/VideoCamera.fbx using Guid(6d2fd392d53cd4e4d80439af0a1e1fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae999044a15a7786367f77cf50739916') in 0.026346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Police Department/Models/TrashCan.fbx
+  artifactKey: Guid(e0d9b78dccd91d942bb7489037c5226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/TrashCan.fbx using Guid(e0d9b78dccd91d942bb7489037c5226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4c525b7704b95bcfdda23435f3f47d') in 0.026059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Models/StickersBlockB.fbx
+  artifactKey: Guid(e1d78e00f5078754193ff1bc1ebfb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/StickersBlockB.fbx using Guid(e1d78e00f5078754193ff1bc1ebfb29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1ecc572cef69e2ecb50fce0df1d23') in 0.025869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/TableB.fbx
+  artifactKey: Guid(c4c2c88182067ec47aa310ccd6cc30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/TableB.fbx using Guid(c4c2c88182067ec47aa310ccd6cc30c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d5bf2aebbe09ddd062e6403815a16') in 0.031987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Police Department/Models/WindowC.fbx
+  artifactKey: Guid(96466720a828d3e4da958dcc19d14080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/WindowC.fbx using Guid(96466720a828d3e4da958dcc19d14080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13766d56628f25aabda4a958fbd1a0f') in 0.035726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Police Department/Models/TelephoneA.fbx
+  artifactKey: Guid(7be3adb40e53e104b8b839437d772f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/TelephoneA.fbx using Guid(7be3adb40e53e104b8b839437d772f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ed1b6710def93ec4a267a30298f67d') in 0.026001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/WindowA.fbx
+  artifactKey: Guid(15a734ec87004cf4b8eb7a36219c20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/WindowA.fbx using Guid(15a734ec87004cf4b8eb7a36219c20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217915b8d2c4f55cf74e2ca5f6a7a3e6') in 0.036611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Models/Scissors.fbx
+  artifactKey: Guid(dbdb27e76a3dc5643b6c1a8f956f845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Scissors.fbx using Guid(dbdb27e76a3dc5643b6c1a8f956f845e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bfe898a61d852e31f2229c8c45cc07') in 0.025386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Police Department/Models/Socket.fbx
+  artifactKey: Guid(628adebcdf3187f49b6aa05ba12c6784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Socket.fbx using Guid(628adebcdf3187f49b6aa05ba12c6784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477c0bde7f96f051e639d1fe80afcc97') in 0.024025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Police Department/Models/VentilationA.fbx
+  artifactKey: Guid(3a35da68e8612a94896e5377abd55e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/VentilationA.fbx using Guid(3a35da68e8612a94896e5377abd55e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2da1ddb4ac289a70661fb8edb325e8') in 0.021270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Models/WindowB.fbx
+  artifactKey: Guid(a9d22401b4d7add43a2929adef858f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/WindowB.fbx using Guid(a9d22401b4d7add43a2929adef858f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b02c4c556f1d3e01d9521f6ea2a4bc4') in 0.038966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Police Department/Models/TelephoneC.fbx
+  artifactKey: Guid(58a6d1f708131dc43b5b0287e1f1e7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/TelephoneC.fbx using Guid(58a6d1f708131dc43b5b0287e1f1e7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e869b38ab1cc1bebba49be0a52ee0cc') in 0.026891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Police Department/Models/SwitchLight.fbx
+  artifactKey: Guid(f29709c885c698040afe8c94bd7fdfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/SwitchLight.fbx using Guid(f29709c885c698040afe8c94bd7fdfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62a7dc2d8862d199a360e91a1733000') in 0.032580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Models/PenB.fbx
+  artifactKey: Guid(d1e69780324f3f2438f7945629079c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/PenB.fbx using Guid(d1e69780324f3f2438f7945629079c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8c26e19798fd94951ee6ede710a169') in 0.025180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Police Department/Models/Tv.fbx
+  artifactKey: Guid(f6d8215f3744a5d4ba2b598fb340d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Models/Tv.fbx using Guid(f6d8215f3744a5d4ba2b598fb340d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102acb1a5c1066c36dc465ac7b97f3d3') in 0.035501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.665056 seconds.
+  path: Assets/Police Department/Material/BlindsB_Closed.mat
+  artifactKey: Guid(3d8cfac57f0f91245bda0f45db488904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/BlindsB_Closed.mat using Guid(3d8cfac57f0f91245bda0f45db488904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e4b20f2f5d514e4fe57586efb9f7d0') in 0.241417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Police Department/Material/CeilingLampB_On.mat
+  artifactKey: Guid(c91ae89c8e23ed8419ac2c6134a3adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CeilingLampB_On.mat using Guid(c91ae89c8e23ed8419ac2c6134a3adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5373414b55d522607948abcd9c728873') in 0.121368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Police Department/Material/CeilingLampC_Off.mat
+  artifactKey: Guid(b655738b4ad38c1428cfa581fabfc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CeilingLampC_Off.mat using Guid(b655738b4ad38c1428cfa581fabfc65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658bca8ba0389ee3f411385e826eb051') in 0.037301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Police Department/Material/BoxA.mat
+  artifactKey: Guid(104c9109e00a2e444b66c7db6c57d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/BoxA.mat using Guid(104c9109e00a2e444b66c7db6c57d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2931531b0839609f7800c0f697820fed') in 0.034360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.162011 seconds.
+  path: Assets/Police Department/Material/ChairC.mat
+  artifactKey: Guid(8c48dd89e7a5b3144a73eb5256c8664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/ChairC.mat using Guid(8c48dd89e7a5b3144a73eb5256c8664d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e878a6e47b28a473d93b8b336abbda') in 0.033955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.025492 seconds.
+  path: Assets/Police Department/Material/CupB_1.mat
+  artifactKey: Guid(6cfe6f14d2a97e8489db0fbca3548c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/CupB_1.mat using Guid(6cfe6f14d2a97e8489db0fbca3548c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dbb25b262b3acb4112deedb582ad00') in 0.026636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Police Department/Material/DoorB_Glass.mat
+  artifactKey: Guid(c7c298dbdbe29574384157ed9864e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Material/DoorB_Glass.mat using Guid(c7c298dbdbe29574384157ed9864e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88ef9bd38f0495a4abe1b30a09f742b') in 0.209816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.829923 seconds.
+  path: Assets/Police Department/Prefabs/BlindsB_Closed.prefab
+  artifactKey: Guid(d38a9982a506ee0429ef7710e9a7c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/BlindsB_Closed.prefab using Guid(d38a9982a506ee0429ef7710e9a7c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d7ea68ae4361c87151289e35ddab0c') in 0.039852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Police Department/Prefabs/BoardA_Full.prefab
+  artifactKey: Guid(eded0658d9134444e80813a58542a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/BoardA_Full.prefab using Guid(eded0658d9134444e80813a58542a3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3de3955c24268a6bcd65073a907c76') in 0.211175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 344
+========================================================================
+Received Import Request.
+  Time since last request: 0.263217 seconds.
+  path: Assets/Police Department/Prefabs/ChairB.prefab
+  artifactKey: Guid(d949a1101651d9a479a21dfbf0adb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/ChairB.prefab using Guid(d949a1101651d9a479a21dfbf0adb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d3ed1d9eed8bd99e2e5e0f6d99f78f') in 0.051456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Police Department/Prefabs/CupA_2.prefab
+  artifactKey: Guid(df12dc09ff25a2e4b86aece15919a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/CupA_2.prefab using Guid(df12dc09ff25a2e4b86aece15919a02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fbf22c57d96314a3e74b7d9b628f61') in 0.027730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Police Department/Prefabs/Folder_2.prefab
+  artifactKey: Guid(32c55be83e7fed14982d36076f49c4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Folder_2.prefab using Guid(32c55be83e7fed14982d36076f49c4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543f9132d8480a97788c1786225f6ad2') in 0.025963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Police Department/Prefabs/FolderDocC.prefab
+  artifactKey: Guid(3f4dd2314c3311c4e8534851391fa536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/FolderDocC.prefab using Guid(3f4dd2314c3311c4e8534851391fa536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c2bbb24ebdecb02ab0b8dcd6a47fab') in 0.032342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Police Department/Prefabs/FolderDocB_2.prefab
+  artifactKey: Guid(31a1d3fccfc700a46937516ecfa14cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/FolderDocB_2.prefab using Guid(31a1d3fccfc700a46937516ecfa14cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e70b8b244badae61f9ef23b4ccc662') in 0.034230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Police Department/Prefabs/FolderDocA.prefab
+  artifactKey: Guid(675913dda0c27904c9633752c0ee0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/FolderDocA.prefab using Guid(675913dda0c27904c9633752c0ee0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3fc5bfc467616608ab2e5918af83a6') in 0.029769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Police Department/Prefabs/CupB_2.prefab
+  artifactKey: Guid(55a5fc5fb18bfa14d9ce5e6a1dd3d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/CupB_2.prefab using Guid(55a5fc5fb18bfa14d9ce5e6a1dd3d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f45aeb6c0e3569214d58437d300b16') in 0.029915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Police Department/Prefabs/Folder_3.prefab
+  artifactKey: Guid(b27f5dafdead3ac43ba10ab26abfd80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police Department/Prefabs/Folder_3.prefab using Guid(b27f5dafdead3ac43ba10ab26abfd80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df05da54079c883445d53788e2edc03c') in 0.028590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
