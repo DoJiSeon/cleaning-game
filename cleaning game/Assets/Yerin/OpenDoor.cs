@@ -26,7 +26,6 @@ public class OpenDoor : MonoBehaviour
         {
             if (PlayerInventory.instance.HasKey && !isOpen)
             {
-
                 StartCoroutine(Dooropen());
             }
         }
