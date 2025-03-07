@@ -1,55 +1,51 @@
-using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public class RandomObjectSpawner : MonoBehaviour
 {
-    public GameObject rangeObject; // 소환 범위를 정의하는 오브젝트
-    MeshCollider rangeCollider; // 범위 오브젝트의 메쉬 콜라이더
-    public GameObject capsul; // 소환할 캡슐 오브젝트
-    public int spawnCount = 10; // 소환할 캡슐의 개수
+    public GameObject[] myObjects; // 생성할 오브젝트 배열
+    public Transform parentObject; // 원하는 부모 오브젝트 (Plane)
+    [SerializeField]
+    public float yFixedValue = -9.5f;  // 스폰될 y 값 (고정할 높이)
 
-    private List<Vector3> spawnedPositions = new List<Vector3>(); // 생성된 위치 목록
+    private List<Vector3> spawnPositions = new List<Vector3>(); // 자식들의 위치 저장 리스트
 
-    private void Start()
+  
+
+    void Start()
     {
-        rangeCollider = rangeObject.GetComponent<MeshCollider>(); // 메쉬 콜라이더 컴포넌트 가져오기
+        Debug.Log("Start() 실행됨. parentObject: " + parentObject.name);
 
-        if (rangeCollider == null)
+        // parentObject의 자식들 가져오기
+        foreach (Transform child in parentObject)
         {
-            Debug.LogError("Range Object에 메쉬 콜라이더가 없습니다.");
-            return;
+            spawnPositions.Add(child.position);
+            Debug.Log("추가된 위치: " + child.position + " (오브젝트 이름: " + child.name + ")");
         }
 
-        // 지정된 개수만큼 소환
-        for (int i = 0; i < spawnCount; i++)
+        if (spawnPositions.Count == 0)
         {
-            Vector3 spawnPosition = Return_RandomPosition();
-
-            // 중복 체크: 이미 생성된 위치와 겹치는지 확인
-            while (spawnedPositions.Contains(spawnPosition))
-            {
-                spawnPosition = Return_RandomPosition(); // 새로운 랜덤 위치 생성
-            }
-
-            spawnedPositions.Add(spawnPosition); // 생성된 위치 저장
-            Debug.Log($"소환 위치: {spawnPosition}"); // 소환 위치 로그
-            Instantiate(capsul, spawnPosition, Quaternion.identity); // 캡슐 소환
+            Debug.LogError("spawnPositions이 비어 있음! parentObject의 자식 오브젝트들을 확인하세요.");
         }
     }
 
-    Vector3 Return_RandomPosition()
+
+    void Update()
     {
-        Vector3 originPosition = rangeObject.transform.position; // 범위 오브젝트의 위치
-        float range_X = rangeCollider.bounds.size.x; // X축 범위
-        float range_Z = rangeCollider.bounds.size.z; // Z축 범위
+        if (Input.GetKeyDown(KeyCode.Space) && spawnPositions.Count > 0) // 스페이스바 입력
+        {
+            int randomObjectIndex = Random.Range(0, myObjects.Length); // 랜덤 오브젝트 선택
+            int randomPosIndex = Random.Range(0, spawnPositions.Count); // 랜덤 위치 선택
 
-        // 랜덤 위치 생성
-        float randomX = Random.Range((range_X / 2) * -1, range_X / 2);
-        float randomZ = Random.Range((range_Z / 2) * -1, range_Z / 2);
-        Vector3 randomPosition = new Vector3(randomX, 0f, randomZ); // 랜덤 위치 벡터 생성
-
-        // 최종 랜덤 위치 계산
-        Vector3 respawnPosition = originPosition + randomPosition;
-        return respawnPosition; // 최종 랜덤 위치 반환
+            Vector3 spawnPosition = new Vector3(
+               spawnPositions[randomPosIndex].x,
+               yFixedValue,
+               spawnPositions[randomPosIndex].z
+           );
+            Debug.Log($"스폰 위치: {spawnPosition} (y 고정 값: {yFixedValue})");
+            Instantiate(myObjects[randomObjectIndex], spawnPositions[randomPosIndex], Quaternion.identity);
+        }
     }
 }
