@@ -46,6 +46,7 @@ public class RandomObjectSpawner : MonoBehaviour
            );
             Debug.Log($"스폰 위치: {spawnPosition} (y 고정 값: {yFixedValue})");
             Instantiate(myObjects[randomObjectIndex], spawnPositions[randomPosIndex], Quaternion.identity);
+            SpawnManager.Instance.IncrementSpawnCount();
         }
     }
 }
